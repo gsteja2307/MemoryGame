@@ -1,0 +1,11 @@
+{
+  "name": "memorygame",
+  "version": "1.0.0",
+  "description": "## Table of Contents",
+  "main": "index.js",
+  "scripts": {
+    "build": "live-server"
+  },
+  "author": "",
+  "license": "ISC"
+}

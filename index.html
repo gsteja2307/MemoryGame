@@ -7,6 +7,24 @@
     <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
     <link rel="stylesheet" href="css/app.css">
+    <style type="text/css">
+    .hidden{
+        display:none;
+    }
+       @media screen and (max-width:647px){
+        .container{
+            display: none;
+        }
+        .hidden{
+            display: block;
+            position: absolute;
+            top:50%;
+            /*left: 50%;*/
+            font-size: 2em;
+            color: red;
+        }
+       }
+    </style>
 </head>
 <body>
 
@@ -24,7 +42,7 @@
 
         	<span class="moves"></span> Moves
 
-            <div class="restart">
+            <div id='restart' class="restart">
         		<i class="fa fa-repeat"></i>
         	</div>
         </section>
@@ -81,7 +99,7 @@
             </li>
         </ul>
     </div>
-
+        <p class='hidden'>this is not available on your device at the moment</p>
     <script src="js/app.js"></script>
 </body>
 </html>
